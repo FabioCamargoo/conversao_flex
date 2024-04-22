@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header, footer{
+    background-color: #333;
+    color: #FFF;
+    padding: 20px;
+    
+    text-align: center;
+}
+main{
+    display: flex;
+    justify-content: center;
+    background-color: #eee;
+    padding: 100px;
+    gap: 100px;
+    flex-wrap: nowrap;
+}
+
+.conversor{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: start;
+}
+
+label, input{
+    outline: none;   
+}
+    
+    
