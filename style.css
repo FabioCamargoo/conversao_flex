@@ -1,18 +1,20 @@
-*{
+* {
     padding: 0;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    
+
 }
 
-header, footer{
+header,
+footer {
     background-color: #333;
     color: #FFF;
     padding: 35px;
-    
+
     text-align: center;
 }
-main{
+
+main {
     display: flex;
     justify-content: center;
     background-color: #eee;
@@ -21,27 +23,29 @@ main{
     flex-wrap: nowrap;
 }
 
-.conversor{
-background-color: white;
-border: 1px solid #d3d3d3;
-border-radius: 7px;
-padding: 35px 40px 40px 40px;
+.conversor {
+    background-color: white;
+    border: 1px solid #d3d3d3;
+    border-radius: 7px;
+    padding: 35px 40px 40px 40px;
 
 }
-    
 
-label, input{
-    outline: none;  
-    margin-top: 10px; 
+
+label,
+input {
+    outline: none;
+    margin-top: 10px;
 
 }
 
 .conversor input {
     padding: 10px 156px 10px 10px;
     border: 1px solid gray;
-    border-radius: 5px;
+    border-radius: 3px;
 }
-button{
+
+button {
     background-color: #333;
     color: white;
     padding: 10px 100px 10px 100px;
@@ -50,17 +54,12 @@ button{
     display: flex;
     align-items: end;
     margin-top: 10px;
-    
-    
+
+
 }
 
-label{
-    
+label {
+
     display: flex;
     text-align: start;
 }
-
-
-
-
-    
