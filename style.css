@@ -16,50 +16,48 @@ footer {
 
 main {
     display: flex;
-    justify-content: center;
     background-color: #eee;
-    padding: 100px;
-    gap: 100px;
-    flex-wrap: nowrap;
+    padding: 145px;
+    height: 160px;
+    gap: 30px;
+
 }
 
 .conversor {
+    width: 100%;
     background-color: white;
     border: 1px solid #d3d3d3;
     border-radius: 7px;
-    padding: 35px 40px 40px 40px;
+    padding: 20px;
 
 }
-
-
 
 input {
+    width: 100%;
+    height: 40px;
     outline: none;
     margin-top: 10px;
-
-}
-
-.conversor input {
-    padding: 10px 156px 10px 10px;
-    border: 1px solid gray;
-    border-radius: 3px;
+    box-sizing: border-box;
+    
 }
 
 button {
     background-color: #333;
     color: white;
-    padding: 10px 100px 10px 100px;
-    border: 0px;
+    width: 100%;
+    height: 40px;
+     
     border-radius: 5px;
-    display: flex;
-    align-items: end;
     margin-top: 10px;
-
-
 }
 
-label {
 
-    display: flex;
-    text-align: start;
-}
+    
+
+
+
+    
+    
+
+
+
